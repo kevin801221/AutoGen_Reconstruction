@@ -66,12 +66,11 @@ AutoGen 是一個開源框架，專門打造 AI 代理系統。它簡化了事�
 ## 🎓 新手上路
 
 ### 🐍 Python 版本（AgentChat）
-```python
 First install the packages:
 
 pip install "autogen-agentchat==0.4.0.dev11" "autogen-ext[openai]==0.4.0.dev11"
 The following code uses OpenAI's GPT-4o model and you need to provide your API key to run. To use Azure OpenAI models, follow the instruction here.
-
+```python
 import asyncio
 from autogen_agentchat.agents import AssistantAgent
 from autogen_agentchat.ui import Console
